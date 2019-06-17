@@ -2,13 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-	<script src="../head.js"></script>
+	<script src="../part_pages_js/head.js"></script>
 </head>
 
 <body>
 
 	<!--================ Start Header Area =================-->
-	<script src="../menu.js"></script>
+	<script src="../part_pages_js/menu.js"></script>
 	<!--================ End Header Area =================-->
 
 	<!--================ Start Home Banner Area =================-->
@@ -122,7 +122,8 @@
 			<div class="filters portfolio-filter">
 				<ul>
 					<li class="active" data-filter="*">todos</li>
-					<li data-filter=".popular">e-commerce</li>
+                    <li data-filter=".popular">e-commerce</li>
+                    <li data-filter=".erp">erp</li>
 					<li data-filter=".following">web sites</li>
 					<li data-filter=".latest">WordPress</li>
 					<li data-filter=".upcoming">códigos</li>
@@ -131,7 +132,9 @@
 	
 			<div class="filters-content">
 				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all latest">
+                    
+                    <!--JOB popular-->
+                    <div class="col-lg-4 col-md-6 all popular">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="../img/portfolio/p1.jpg" alt="">
@@ -147,8 +150,10 @@
 								<!--<p>Animated, portfolio</p>-->
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
+                    </div><!--/JOB popular-->
+                    
+                    <!--JOB erp-->
+                    <div class="col-lg-4 col-md-6 all erp">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="../img/portfolio/p2.jpg" alt="">
@@ -164,8 +169,10 @@
 								<!--<p>Animated, portfolio</p>-->
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all latest">
+                    </div><!--/JOB erp-->
+                    
+                    <!--JOB latest popular-->
+					<div class="col-lg-4 col-md-6 all latest popular">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="../img/portfolio/p3.jpg" alt="">
@@ -181,8 +188,10 @@
 								<!--<p>Animated, portfolio</p>-->
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
+                    </div><!--/JOB latest popular-->
+
+                    <!--/JOB following-->
+                    <div class="col-lg-4 col-md-6 all following">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="../img/portfolio/p4.jpg" alt="">
@@ -197,7 +206,7 @@
 								<h4><a href="portfolio-details.html">site moriva agronegócios</a></h4>
 							</div>
 						</div>
-					</div>
+					</div><!--/JOB following-->
 				</div>
 			</div>
 		</div>
@@ -331,7 +340,7 @@
 	<!--================ End Newsletter Area =================-->
 
 	<!--================Footer Area =================-->
-	<script src="../rodape.js"></script>
+	<script src="../part_pages_js/rodape.js"></script>
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->

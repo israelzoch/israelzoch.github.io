@@ -12,8 +12,7 @@ document.write('<footer class="footer_area">'+
                 '<div class="footer_social">'+
                     '<a href="#"><i class="fa fa-instagram"></i></a>'+
                     '<a href="#"><i class="fa fa-linkedin"></i></a>'+
-                    '<!--<a href="#"><i class="fa fa-dribbble"></i></a>'+
-                    '<a href="#"><i class="fa fa-behance"></i></a>-->'+
+                    '<a href="#"><i class="fa fa-github"></i></a>'+
                 '</div>'+
             '</div>'+
         '</div>'+
