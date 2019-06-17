@@ -13,7 +13,7 @@ document.write('<header class="header_area">'+
             '<div class="collapse navbar-collapse offset" id="navbarSupportedContent">'+
                 '<ul class="nav navbar-nav menu_nav justify-content-end">'+
                     '<li class="nav-item"><a class="nav-link" href="home.html">Início</a></li>'+
-                    '<li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>'+
+                    '<!--<li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>-->'+
                     '<li class="nav-item"><a class="nav-link" href="services.html">Códigos</a></li>'+
                     '<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>'+
                     '<!--<li class="nav-item submenu dropdown">'+
